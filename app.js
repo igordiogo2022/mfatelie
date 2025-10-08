@@ -12,35 +12,36 @@ function carregarProdutosNovidade(){
     for (let i=0; i<4; i++){
         imagemHtml[i].src = listaProdutosNovidade[i][1];
         nomeHtml[i].innerHTML = listaProdutosNovidade[i][2];
+        nomeHtml[i].title = listaProdutosNovidade[i][2];
         precoHtml[i].innerHTML = listaProdutosNovidade[i][3];
     }
 }
 
 const listaProdutos = [
-    ["imagens/produtos/laco1.jpg", "Nome do Produto", "R$ 10,00", "laco"],
-    ["imagens/produtos/faixa1.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/laco2.jpg", "Nome do Produto", "R$ 10,00", "laco"],
-    ["imagens/produtos/chaveiro1.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/laco3.jpg", "Nome do Produto", "R$ 10,00", "laco"],
-    ["imagens/produtos/laco4.jpg", "Nome do Produto", "R$ 10,00", "laco"],
-    ["imagens/produtos/laco5.jpg", "Nome do Produto", "R$ 10,00", "laco"],
-    ["imagens/produtos/bolsa1.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/caneta1.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/tiara1.jpg", "Nome do Produto", "R$ 10,00", "tiara"],
-    ["imagens/produtos/tiara2.jpg", "Nome do Produto", "R$ 10,00", "tiara"],
-    ["imagens/produtos/terco1.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/laco6.jpg", "Nome do Produto", "R$ 10,00", "laco"],
-    ["imagens/produtos/tiara3.jpg", "Nome do Produto", "R$ 10,00", "tiara"],
-    ["imagens/produtos/tiara4.jpg", "Nome do Produto", "R$ 10,00", "tiara"],
-    ["imagens/produtos/tiara5.jpg", "Nome do Produto", "R$ 10,00", "tiara"],
-    ["imagens/produtos/pulseira1.jpg", "Nome do Produto", "R$ 10,00", "pulseira"],
-    ["imagens/produtos/faixa2.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/chaveiro2.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/pulseira2.jpg", "Nome do Produto", "R$ 10,00", "pulseira"],
-    ["imagens/produtos/chaveiro3.jpg", "Nome do Produto", "R$ 10,00", "outros"],
-    ["imagens/produtos/pulseira3.jpg", "Nome do Produto", "R$ 10,00", "pulseira"],
-    ["imagens/produtos/pulseira4.jpg", "Nome do Produto", "R$ 10,00", "pulseira"], 
-    ["imagens/produtos/pulseira5.jpg", "Nome do Produto", "R$ 10,00", "pulseira"]
+    ["imagens/produtos/laco1.jpg", "Laço com lápis", "R$ 10,00", "laco"],
+    ["imagens/produtos/faixa1.jpg", "Faixas para bebê", "R$ 10,00", "outros"],
+    ["imagens/produtos/laco2.jpg", "Laço rosa com detalhes verdess", "R$ 10,00", "laco"],
+    ["imagens/produtos/chaveiro1.jpg", "Chaveiro de letra", "R$ 10,00", "outros"],
+    ["imagens/produtos/laco3.jpg", "Laço com nome Isadora", "R$ 10,00", "laco"],
+    ["imagens/produtos/laco4.jpg", "Laço rosa", "R$ 10,00", "laco"],
+    ["imagens/produtos/laco5.jpg", "Laço Stitch", "R$ 10,00", "laco"],
+    ["imagens/produtos/bolsa1.jpg", "Bolsa azul e branco", "R$ 10,00", "outros"],
+    ["imagens/produtos/caneta1.jpg", "Caneta Stitch", "R$ 10,00", "outros"],
+    ["imagens/produtos/tiara1.jpg", "Tiara junina azul", "R$ 10,00", "tiara"],
+    ["imagens/produtos/tiara2.jpg", "Tiara vermelha com pompom", "R$ 10,00", "tiara"],
+    ["imagens/produtos/terco1.jpg", "Terço branco", "R$ 10,00", "outros"],
+    ["imagens/produtos/laco6.jpg", "Laço com orelhas de coelho", "R$ 10,00", "laco"],
+    ["imagens/produtos/tiara3.jpg", "Tiara azul", "R$ 10,00", "tiara"],
+    ["imagens/produtos/tiara4.jpg", "Tiaras vermelhas com laço", "R$ 10,00", "tiara"],
+    ["imagens/produtos/tiara5.jpg", "Tiara colorida com nome", "R$ 10,00", "tiara"],
+    ["imagens/produtos/pulseira1.jpg", "Pulseira com nome Rodrigo", "R$ 10,00", "pulseira"],
+    ["imagens/produtos/faixa2.jpg", "Touca vermelha", "R$ 10,00", "outros"],
+    ["imagens/produtos/chaveiro2.jpg", "Chaveiro do Corinthians com nome", "R$ 10,00", "outros"],
+    ["imagens/produtos/pulseira2.jpg", "Pulseira com nome Jesus", "R$ 10,00", "pulseira"],
+    ["imagens/produtos/chaveiro3.jpg", "Chaveiros azul e rosa", "R$ 10,00", "outros"],
+    ["imagens/produtos/pulseira3.jpg", "Pulseira vinho", "R$ 10,00", "pulseira"],
+    ["imagens/produtos/pulseira4.jpg", "Pulseira azul", "R$ 10,00", "pulseira"], 
+    ["imagens/produtos/pulseira5.jpg", "Pulseira verde", "R$ 10,00", "pulseira"]
 ];
 
 function carregarProdutos(){
@@ -55,7 +56,7 @@ function carregarProdutos(){
             // cria os elementos
             card = document.createElement("div");
             imagem = document.createElement("img");
-            nomeProduto = document.createElement("p");
+            nomeProduto = document.createElement("abbr");
             precoProduto = document.createElement("p");
             botao = document.createElement("a");
 
@@ -69,6 +70,7 @@ function carregarProdutos(){
             // atributos nome
             nomeProduto.classList.add("cardProdutoTexto");
             nomeProduto.innerHTML = listaProdutos[i][1];
+            nomeProduto.title = listaProdutos[i][1];
             
             // atributos preço
             precoProduto.classList.add("cardProdutoPreco");
