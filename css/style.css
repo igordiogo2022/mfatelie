@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+    --cor1: #FDF1DE;
+    --cor2: #EACFB1;
+    --cor3: #6F5941;
+    --cor4: #e67422;
+    --cor5: #584334;
+    --bege: #FFD6A1;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--cor2);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor1);
+    height: 10vh;
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+#titulo{
+    color: var(--cor3);
+    font-family: "Lora", serif;
+    font-weight: 600;
+    width: 45%;
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    gap: 10%;
+    width: 45%;
+}
+.opcaoMenu{
+    text-decoration: none;
+    color: var(--cor3);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuAtivo {
+    border-bottom: 3px solid var(--cor4);
+    color: var(--cor4);
+}
+#destaque{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    background-color: var(--cor2);
+    height: 50vh;
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+#destaqueMetade1{
+    flex-direction: column;
+    width: 45%;
+}
+#textoDestaque{
+    color: var(--cor5);
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+#botaoDestaque{
+    display: flex;
+    text-decoration: none;
+    width: 32%;
+    height: 40px;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: var(--cor4);
+    border-radius: 12px;
+}
+#imagemDestaque{
+    width: 40%;
+    height: 100%;
+}
+#produtos{
+    background-color: var(--cor1);
+    height: 50vh;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    font-size: 16px;
+}
+#tituloProdutos{
+    padding: 1% 0 1% 0;
+    font-weight: 600;
+    color: var(--cor3);
+    font-family: "Lora", serif;
+}
+#cardsProdutos{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    height: 50vh;
+}
+.cardProduto{
+    width: 22%;
+    height: 70%;
+    text-decoration: none;
+}
+.cardProduto:hover{
+    transform: scale(1.05);
+}
+.cardProdutoImagem{
+    width: 100%;
+    height: 85%;
+    border-radius: 12px;
+}
+.cardProdutoTexto{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-weight: 600;
+    color: var(--cor3);
+    font-family: "Lora", serif;
+}
+#novidades{
+    background-color: var(--cor2);
+    height: 60vh;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    font-size: 16px;
+}
+#tituloNovidades{
+    padding: 1% 0 1% 0;
+    font-weight: 600;
+    color: var(--cor5);
+    font-family: "Lora", serif;
+}
+#cardsNovidades{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    height: 50vh;
+}
+.cardNovidade{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 0;  
+    height: 90%;
+    text-decoration: none;
+    background-color: var(--cor1);
+    border: solid 2px var(--cor1);
+    border-radius: 12px;
+    align-items: center;
+    gap: 2%;
+}
+.cardNovidadeImagem{
+    width: 100%;
+    height: 65%;
+    border-radius: 12px;
+}
+.cardNovidadeTexto, .cardNovidadePreco{
+    font-weight: 600;
+    color: var(--cor5);
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+    white-space: nowrap;         
+    overflow: hidden;       
+    text-overflow: ellipsis;
+}
+.cardNovidadeBotao{
+    display: flex;
+    text-decoration: none;
+    width: 65%;
+    height: 32px;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: var(--cor5);
+    border-radius: 12px;
+}

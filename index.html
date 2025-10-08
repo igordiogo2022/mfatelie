@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MF Ateliê</title>
+</head>
+<body onload="carregarProdutosNovidade()">
+    <header>
+        <h1 id="titulo">MF Ateliê</h1>
+        <div id="menu">
+            <a href="index.html" class="opcaoMenu menuAtivo">Início</a>
+            <a href="produtos.html?filtro=todos" class="opcaoMenu">Produtos</a>
+            <a href="contato.html" class="opcaoMenu">Contato</a>
+        </div>
+    </header>
+    <div id="destaque">
+        <div id="destaqueMetade1">
+            <h1 id="textoDestaque">Desfile com elegância e harmônia!</h1>
+            <a href="produtos.html?filtro=todos" id="botaoDestaque">COMPRE AGORA</a>
+        </div>
+        <img src="imagens/destaqueImagem.jpg" alt="imagem de laço" id="imagemDestaque">
+    </div>
+    <div id="produtos">
+        <h1 id="tituloProdutos">Produtos</h1>
+        <div id="cardsProdutos">
+            <a class="cardProduto" href="produtos.html?filtro=pulseira">
+                <img src="imagens/pulseiraCard.jpg" alt="imagem de pulseira" class="cardProdutoImagem">
+                <h2 class="cardProdutoTexto">Pulseiras</h2>
+            </a>
+            <a class="cardProduto" href="produtos.html?filtro=laco">
+                <img src="imagens/lacoCard.jpg" alt="imagem de laço" class="cardProdutoImagem">
+                <h2 class="cardProdutoTexto">Laços</h2>
+            </a>
+            <a class="cardProduto" href="produtos.html?filtro=tiara">
+                <img src="imagens/tiaraCard.jpg" alt="imagem de tiara" class="cardProdutoImagem">
+                <h2 class="cardProdutoTexto">Tiaras</h2>
+            </a>
+            <a class="cardProduto" href="produtos.html?filtro=outros">
+                <img src="imagens/outrosCard.jpg" alt="" class="cardProdutoImagem">
+                <h2 class="cardProdutoTexto">Outros</h2>
+            </a>
+        </div>
+    </div>
+    <div id="novidades">
+        <h1 id="tituloNovidades">Novidades</h1>
+        <div id="cardsNovidades">
+            <div class="cardNovidade" href="">
+                <img src="imagens/pulseiraCard.jpg" alt="" class="cardNovidadeImagem">
+                <p class="cardNovidadeTexto">Pulseira de ursinhoassssssssss</p>
+                <p class="cardNovidadePreco">R$ 29,50</p>
+                <a href="" class="cardNovidadeBotao">Fazer pedido</a>
+            </div>
+            <div class="cardNovidade" href="">
+                <img src="imagens/pulseiraCard.jpg" alt="" class="cardNovidadeImagem">
+                <p class="cardNovidadeTexto">Pulseira de ursinhoas</p>
+                <p class="cardNovidadePreco">R$ 29,50</p>
+                <a href="" class="cardNovidadeBotao">Fazer pedido</a>
+            </div>
+            <div class="cardNovidade" href="">
+                <img src="imagens/pulseiraCard.jpg" alt="" class="cardNovidadeImagem">
+                <p class="cardNovidadeTexto">Pulseira de ursinhoas</p>
+                <p class="cardNovidadePreco">R$ 29,50</p>
+                <a href="" class="cardNovidadeBotao">Fazer pedido</a>
+            </div>
+            <div class="cardNovidade" href="">
+                <img src="imagens/pulseiraCard.jpg" alt="" class="cardNovidadeImagem">
+                <p class="cardNovidadeTexto">Pulseira de ursinhoas</p>
+                <p class="cardNovidadePreco">R$ 29,50</p>
+                <a href="" class="cardNovidadeBotao">Fazer pedido</a>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
