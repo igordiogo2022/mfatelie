@@ -1,8 +1,8 @@
 const listaProdutosNovidade = [
-    ["Produto1", "imagens/pulseiraCard.jpg", "nomeDoProduto", "preço"],
-    ["Produto2", "imagens/lacoCard.jpg", "nomeDoProdutobrancovermelhozuzol", "preço"],
-    ["Produto3", "endereçoDaImagem", "nomeDoProduto", "preço"],
-    ["Produto4", "endereçoDaImagem", "nomeDoProduto", "preço"]
+    ["Produto1", "imagens/produtos/laco5.jpg", "Laço Stitch", "R$ 10,00"],
+    ["Produto2", "imagens/produtos/laco3.jpg", "Laço com nome Isadora", "R$ 10,00"],
+    ["Produto3", "imagens/produtos/tiara3.jpg", "Tiara azul", "R$ 10,00"],
+    ["Produto4", "imagens/produtos/bolsa1.jpg", "Bolsa azul e branco", "R$ 10,00"]
 ];
 
 function carregarProdutosNovidade(){
@@ -79,6 +79,7 @@ function carregarProdutos(){
             // atributos botão
             botao.classList.add("cardProdutoBotao");
             botao.innerHTML = "Fazer pedido";
+            botao.href = "contato.html";    
             
             card.appendChild(imagem);
             card.appendChild(nomeProduto);
