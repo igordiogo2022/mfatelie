@@ -111,3 +111,45 @@ main{
     border-radius: 100px;
     margin: 0 5% 0 5%;
 }
+@media (max-width: 500px) {
+    header{
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    #menu{
+        width: 100%;
+        justify-content: center;
+        background-color: var(--cor2);
+        margin-bottom: 2%;
+        gap: 0%;
+    }
+    .opcaoMenu{
+        text-decoration: none;
+        color: var(--cor3);
+        height: 94%;
+        padding: 3% 0;
+        width: 33%;
+        text-align: center;
+        border: 0;
+    }
+    .menuAtivo {
+        background-color: var(--cor4);
+        color: var(--cor5);
+    }
+    #filtros{
+        padding: 2% 5%;
+        width: 90%;
+    }
+    .linkFiltros{
+        font-size: 16px;
+    }
+    main{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 40vh;
+    }
+    .cardProduto{
+        width: 95%;
+    }
+}

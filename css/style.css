@@ -198,13 +198,14 @@ header{
         justify-content: center;
         background-color: var(--cor2);
         margin-bottom: 2%;
+        gap: 0%;
     }
     .opcaoMenu{
         text-decoration: none;
         color: var(--cor3);
         height: 94%;
         padding: 3% 0;
-        width: 30%;
+        width: 33%;
         text-align: center;
         border: 0;
     }
