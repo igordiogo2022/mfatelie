@@ -162,6 +162,7 @@ header{
 }
 .cardNovidadeTexto, .cardNovidadePreco{
     font-weight: 600;
+    cursor: default;
     color: var(--cor5);
     font-family: 'Helvetica Neue', sans-serif; 
     font-size: 18px;
@@ -198,7 +199,7 @@ header{
         justify-content: center;
         background-color: var(--cor2);
         margin-bottom: 2%;
-        gap: 0%;
+        gap: 2px;
     }
     .opcaoMenu{
         text-decoration: none;

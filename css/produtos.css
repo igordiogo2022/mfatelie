@@ -44,6 +44,22 @@ header{
     border-bottom: 3px solid var(--cor4);
     color: var(--cor4);
 }
+#notificacao{
+    display: flex;
+    position: fixed;
+    font-family: Arial, Helv    etica, sans-serif;
+    top: 10px;
+    right: 10px;
+    background-color: yellow;
+    height: 10%;
+    width: 25%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0 darkgoldenrod;
+    padding: 1%;
+}
+#fechar{
+    cursor: pointer;
+}
 #filtros{
     display: flex;
     width: 80%;
@@ -96,6 +112,7 @@ main{
     text-decoration: none;
     text-overflow: ellipsis;
     margin: 0 5% 0 5%;
+    cursor: default;
 }
 .cardProdutoBotao{
     display: flex;
@@ -137,6 +154,11 @@ main{
     .menuAtivo {
         background-color: var(--cor4);
         color: var(--cor5);
+    }
+    #notificacao{
+        height: 12%;
+        width: 65%;
+        padding: 2%;
     }
     #filtros{
         padding: 2% 5%;

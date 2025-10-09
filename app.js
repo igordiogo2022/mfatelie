@@ -91,3 +91,12 @@ function carregarProdutos(){
         }
     }
 }
+
+setTimeout(function fecharNotificacao(){
+        notificacao = document.querySelector('#notificacao');
+        notificacao.style.display = "none";
+}, 8000);
+function fecharNotificacao(){
+        notificacao = document.querySelector('#notificacao');
+        notificacao.style.display = "none";
+}
