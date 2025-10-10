@@ -128,6 +128,19 @@ main{
     border-radius: 100px;
     margin: 0 5% 0 5%;
 }
+footer{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor5);
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;  
+}
+#igorDiogo{
+    color: red;
+    padding-left: 0.5%;
+}
 @media (max-width: 500px) {
     header{
         height: auto;
