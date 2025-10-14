@@ -1,8 +1,8 @@
 const listaProdutosNovidade = [
-    ["Produto1", "imagens/produtos/laco5.jpg", "Laço Stitch", ""],
-    ["Produto2", "imagens/produtos/laco3.jpg", "Laço com nome Isadora", ""],
-    ["Produto3", "imagens/produtos/tiara3.jpg", "Tiara azul", ""],
-    ["Produto4", "imagens/produtos/bolsa1.jpg", "Bolsa azul e branco", ""]
+    ["Produto1", "imagens/produtos/laco5.jpg", "Laço Stitch", "R$ 18,00"],
+    ["Produto2", "imagens/produtos/laco3.jpg", "Laço com nome Isadora", "R$ 18,00"],
+    ["Produto3", "imagens/produtos/tiara3.jpg", "Tiara azul", "R$ 25,00"],
+    ["Produto4", "imagens/produtos/bolsa1.jpg", "Bolsa azul e branco", "R$ 70,00"]
 ];
 
 function carregarProdutosNovidade(){
@@ -18,30 +18,30 @@ function carregarProdutosNovidade(){
 }
 
 const listaProdutos = [
-    ["imagens/produtos/laco1.jpg", "Laço com lápis", "", "laco"],
-    ["imagens/produtos/faixa1.jpg", "Faixas para bebê", "", "outros"],
-    ["imagens/produtos/laco2.jpg", "Laço rosa com detalhes verdess", "", "laco"],
-    ["imagens/produtos/chaveiro1.jpg", "Chaveiro de letra", "", "outros"],
-    ["imagens/produtos/laco3.jpg", "Laço com nome Isadora", "", "laco"],
-    ["imagens/produtos/laco4.jpg", "Laço rosa", "", "laco"],
-    ["imagens/produtos/laco5.jpg", "Laço Stitch", "", "laco"],
-    ["imagens/produtos/bolsa1.jpg", "Bolsa azul e branco", "", "outros"],
-    ["imagens/produtos/caneta1.jpg", "Caneta Stitch", "", "outros"],
-    ["imagens/produtos/tiara1.jpg", "Tiara junina azul", "", "tiara"],
-    ["imagens/produtos/tiara2.jpg", "Tiara vermelha com pompom", "", "tiara"],
-    ["imagens/produtos/terco1.jpg", "Terço branco", "", "outros"],
-    ["imagens/produtos/laco6.jpg", "Laço com orelhas de coelho", "", "laco"],
-    ["imagens/produtos/tiara3.jpg", "Tiara azul", "", "tiara"],
-    ["imagens/produtos/tiara4.jpg", "Tiaras vermelhas com laço", "", "tiara"],
-    ["imagens/produtos/tiara5.jpg", "Tiara colorida com nome", "", "tiara"],
-    ["imagens/produtos/pulseira1.jpg", "Pulseira com nome Rodrigo", "", "pulseira"],
-    ["imagens/produtos/faixa2.jpg", "Touca vermelha", "", "outros"],
-    ["imagens/produtos/chaveiro2.jpg", "Chaveiro do Corinthians com nome", "", "outros"],
-    ["imagens/produtos/pulseira2.jpg", "Pulseira com nome Jesus", "", "pulseira"],
-    ["imagens/produtos/chaveiro3.jpg", "Chaveiros azul e rosa", "", "outros"],
-    ["imagens/produtos/pulseira3.jpg", "Pulseira vinho", "", "pulseira"],
-    ["imagens/produtos/pulseira4.jpg", "Pulseira azul", "", "pulseira"], 
-    ["imagens/produtos/pulseira5.jpg", "Pulseira verde", "", "pulseira"]
+    ["imagens/produtos/laco1.jpg", "Laço com lápis", "R$ 14,00", "laco"],
+    ["imagens/produtos/faixa1.jpg", "Faixas para bebê", "R$ 14,00 cada", "outros"],
+    ["imagens/produtos/laco2.jpg", "Laço rosa com detalhes verdess", "R$ 14,00", "laco"],
+    ["imagens/produtos/chaveiro1.jpg", "Chaveiro de letra", "R$ 12,00", "outros"],
+    ["imagens/produtos/laco3.jpg", "Laço com nome Isadora", "R$ 18,00", "laco"],
+    ["imagens/produtos/laco4.jpg", "Laço rosa", "R$ 18,00", "laco"],
+    ["imagens/produtos/laco5.jpg", "Laço Stitch", "R$ 18,00", "laco"],
+    ["imagens/produtos/bolsa1.jpg", "Bolsa azul e branco", "R$ 70,00", "outros"],
+    ["imagens/produtos/caneta1.jpg", "Caneta Stitch com nome", "R$ 15,00", "outros"],
+    ["imagens/produtos/tiara1.jpg", "Tiara junina azul", "R$ 30,00", "tiara"],
+    ["imagens/produtos/tiara2.jpg", "Tiara vermelha com pompom", "R$ 14,00", "tiara"],
+    ["imagens/produtos/terco1.jpg", "Terço branco", "R$ 28,00", "outros"],
+    ["imagens/produtos/laco6.jpg", "Laço com orelhas de coelho", "R$ 14,00", "laco"],
+    ["imagens/produtos/tiara3.jpg", "Tiara azul", "R$ 25,00", "tiara"],
+    ["imagens/produtos/tiara4.jpg", "Tiaras vermelhas com laço", "R$ 12,00 cada", "tiara"],
+    ["imagens/produtos/tiara5.jpg", "Tiara colorida com nome", "R$ 25,00", "tiara"],
+    ["imagens/produtos/pulseira1.jpg", "Pulseira com nome Rodrigo", "R$ 10,00", "pulseira"],
+    ["imagens/produtos/faixa2.jpg", "Touca vermelha", "R$ 15,00", "outros"],
+    ["imagens/produtos/chaveiro2.jpg", "Chaveiro do Corinthians com nome", "R$ 18,00", "outros"],
+    ["imagens/produtos/pulseira2.jpg", "Pulseira com nome Jesus", "R$ 10,00", "pulseira"],
+    ["imagens/produtos/chaveiro3.jpg", "Chaveiros azul e rosa", "R$ 15,00", "outros"],
+    ["imagens/produtos/pulseira3.jpg", "Pulseira vinho", "R$ 6,00", "pulseira"],
+    ["imagens/produtos/pulseira4.jpg", "Pulseira azul", "R$ 6,00", "pulseira"], 
+    ["imagens/produtos/pulseira5.jpg", "Pulseira verde", "R$ 6,00", "pulseira"]
 ];
 
 function carregarProdutos(){
